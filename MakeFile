@@ -1,0 +1,7 @@
+CC=gcc
+CFLAGS=-I. 
+
+serial: serial.o
+
+clean:
+	rm -f serial.o
